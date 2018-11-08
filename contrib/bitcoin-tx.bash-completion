@@ -3,7 +3,8 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-_bitcoin_tx() {
+_bitcoin_tx()
+{
     local cur prev words=() cword
     local bitcoin_tx
 
