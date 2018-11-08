@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 _bitcoind() {
-    local cur prev words=() cword
+    local cur prev words=()  curr word
     local bitcoind
 
     # save and use original argument to invoke bitcoind for -help
@@ -45,7 +45,7 @@ _bitcoind() {
             ;;
     esac
 } &&
-complete -F _bitcoind bitcoind bitcoin-qt
+complete -F _bitcoind bitcoind bitcoin-qt//
 
 # Local variables:
 # mode: shell-script
