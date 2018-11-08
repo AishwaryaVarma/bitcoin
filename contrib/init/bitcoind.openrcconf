@@ -1,4 +1,4 @@
-# /etc/conf.d/bitcoind: config file for /etc/init.d/bitcoind
+# /etc/conf.d/bitcoind: config file for /etc/init.d/bitcoin
 
 # Config file location
 #BITCOIND_CONFIGFILE="/etc/bitcoin/bitcoin.conf"
@@ -19,7 +19,7 @@
 # Path to bitcoind executable
 #BITCOIND_BIN="/usr/bin/bitcoind"
 
-# Nice value to run bitcoind under
+# Nice value to run bitcoin under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
